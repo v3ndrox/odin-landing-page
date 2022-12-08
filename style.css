@@ -165,3 +165,17 @@ a:active {
   color: white;
   font-weight: 600;
 }
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.footer div {
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+}
