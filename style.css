@@ -86,7 +86,7 @@ a:active {
 }
 
 .randominfo {
-  margin-bottom: 4em;
+  margin: 0 20em 4em 20em;
 }
 
 .infoheader {
@@ -99,7 +99,7 @@ a:active {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 28px;
+  gap: 4em;
 }
 
 .card {
@@ -116,4 +116,24 @@ a:active {
   text-align: center;
   font-size: 18px;
   color: #1f2937;
+}
+
+.containerquote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 4em 32em;
+}
+
+.containerquote .thor {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.containerquote .quote {
+  font-size: 32px;
+  color: #1f2937;
+  font-weight: 100;
 }
